@@ -1,0 +1,49 @@
+.btn {
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 0.75rem;
+}
+
+.btn-red {
+  background-color: var(--btn-color-red-active);
+}
+
+.btn-red-disabled {
+  background-color: var(--btn-color-red-disabled);
+}
+
+.btn-green {
+  background-color: var(--btn-color-green-active);
+}
+
+.btn-green-disabled {
+  background-color: var(--btn-color-green-disabled);
+}
+
+.btn-yellow {
+  background-color: var(--btn-color-yellow-active);
+}
+
+.btn-yellow-disabled {
+  background-color: var(--btn-color-yellow-disabled);
+}
+
+.btn-blue {
+  background-color: var(--btn-color-blue-active);
+}
+
+.btn-blue-disabled {
+  background-color: var(--btn-color-blue-disabled);
+}
+
+.played {
+  border: 0.25rem solid orange;
+}
+
+@media screen and (max-width: 480px) {
+  .btn {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 0.75rem;
+  }
+}

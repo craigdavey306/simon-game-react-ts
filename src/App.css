@@ -1,0 +1,35 @@
+.App {
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 0.3fr 0.25fr 0.5fr 4fr;
+  grid-gap: 1rem;
+  width: 100vw;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    margin: 0;
+    padding: 0.2rem;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 0.2fr 0.2fr 0.4fr 1fr;
+    grid-gap: 1rem;
+    width: 100vw;
+  }
+
+  .button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
